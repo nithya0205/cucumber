@@ -1,0 +1,290 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "To Generate Card Details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35075985153,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User to go to GurupaymentGateway Page",
+            "match": {
+              "location": "PagementGatewayMain.user_to_go_to_GurupaymentGateway_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 401203327,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User to click Generate Card number option",
+            "match": {
+              "location": "PagementGatewayMain.user_to_click_Generate_Card_number_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2505279454,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Store the Card details.",
+            "match": {
+              "location": "PagementGatewayMain.store_the_Card_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1981402468,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User to click cart",
+            "match": {
+              "location": "PagementGatewayMain.user_to_click_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11960097548,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.launchBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "To Buy the item in Payment Gateway",
+        "description": "",
+        "id": "payment-gateway;to-buy-the-item-in-payment-gateway",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2292062206,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User to click on Buy now",
+            "match": {
+              "location": "PagementGatewayMain.user_to_click_on_Buy_now()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1433778442,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User to enter the card details",
+            "match": {
+              "location": "PagementGatewayMain.user_to_enter_the_card_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2523623933,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click on the Payment button",
+            "match": {
+              "location": "PagementGatewayMain.click_on_the_Payment_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224783975,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User to verify the payment successful message",
+            "match": {
+              "location": "PagementGatewayMain.user_to_verify_the_payment_successful_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To Generate Card Details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4136540836,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User to go to GurupaymentGateway Page",
+            "match": {
+              "location": "PagementGatewayMain.user_to_go_to_GurupaymentGateway_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 555450632,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User to click Generate Card number option",
+            "match": {
+              "location": "PagementGatewayMain.user_to_click_Generate_Card_number_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1455793184,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Store the Card details.",
+            "match": {
+              "location": "PagementGatewayMain.store_the_Card_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2050687057,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User to click cart",
+            "match": {
+              "location": "PagementGatewayMain.user_to_click_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "To Check the Credit card balance",
+        "description": "",
+        "id": "payment-gateway;to-check-the-credit-card-balance",
+        "after": [
+          {
+            "result": {
+              "duration": 1857918350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.QuitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1574516657,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User to click on Check the Credit tab",
+            "match": {
+              "location": "PagementGatewayMain.user_to_click_on_Check_the_Credit_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 621951136,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User to enter the card number",
+            "match": {
+              "location": "PagementGatewayMain.user_to_enter_the_card_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1924894675,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click on the Submit Button",
+            "match": {
+              "location": "PagementGatewayMain.click_on_the_Submit_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301748126,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User to check Card balance amount",
+            "match": {
+              "location": "PagementGatewayMain.user_to_check_Card_balance_amount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@second"
+          }
+        ]
+      }
+    ],
+    "name": "Payment Gateway",
+    "description": "",
+    "id": "payment-gateway",
+    "keyword": "Feature",
+    "uri": "src/Guru99PaymentGteway/Paymentgate.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
